@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Derek Seber",
+  title: "Hi all, I'm Derek",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Senior Software Engineer 🚀 specializing in backend systems, AI/ML infrastructure, and high-performance computing. Experienced with Go, Python, TypeScript, and building scalable cloud-native applications on AWS with Kubernetes, Redis, Kafka, and modern DevOps practices."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/derekseber",
+  linkedin: "https://www.linkedin.com/in/derek-s-495439129/",
+  gmail: "djseber3@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +45,25 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "HIGH-PERFORMANCE BACKEND ENGINEER WHO LOVES BUILDING SCALABLE SYSTEMS AND AI INFRASTRUCTURE",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build high-speed, low-latency backend systems using Go, Python, and Node.js with concurrent processing patterns"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Design and optimize AI/ML data pipelines with TensorRT, ONNX Runtime, and vector databases (Milvus, Redis)"
+    ),
+    emoji(
+      "⚡ Architect cloud-native applications on AWS (EKS, EC2, S3, MSK) with Kubernetes, Docker, and Terraform"
+    ),
+    emoji(
+      "⚡ Implement real-time streaming systems using Apache Kafka, confluent-kafka-go, and event-driven architectures"
+    ),
+    emoji(
+      "⚡ Develop full-stack applications combining React/TypeScript frontends with FastAPI/Django backends"
+    ),
+    emoji(
+      "⚡ Build distributed systems with caching (Redis Enterprise, Milvus), message queues (RabbitMQ, Celery), and async processing"
     )
   ],
 
@@ -65,56 +72,68 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Go (Golang)",
+      fontAwesomeClassname: "fab fa-golang"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-js"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "SQL / PostgreSQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fas fa-cube"
+    },
+    {
+      skillName: "Kafka",
+      fontAwesomeClassname: "fas fa-stream"
+    },
+    {
+      skillName: "Redis",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "C",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Bash",
+      fontAwesomeClassname: "fas fa-terminal"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +145,15 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "University of Maryland College Park",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Bachelor of Science, Computer Science",
+      duration: "2013 - 2017",
+      desc: "Graduated with a strong foundation in computer science fundamentals, data structures, algorithms, and software engineering principles.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed comprehensive understanding of distributed systems and cloud computing",
+        "Participated in software development projects using modern programming languages and frameworks"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -153,16 +164,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Backend / Cloud Infrastructure", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Full-Stack (React + Node/FastAPI)",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "AI/ML Systems & Data Pipelines",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +185,71 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Senior Software Engineer",
+      company: "Plaid",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "August 2025 - Present",
+      desc: "Leading high-performance backend systems and AI infrastructure development",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built high-speed bank data enrichment system using Go, Python, and FastAPI with optimized concurrency patterns (Goroutines, Channels, Sync.Pool)",
+        "Cut external AI cloud fees by 60% using Redis Enterprise and Milvus Vector Database for intelligent memory caching layer",
+        "Accelerated AI data analysis on AWS EC2 G5 GPU servers via TensorRT INT8 quantization and NVIDIA Triton Inference Server",
+        "Protected client applications from AI outages using go-resiliency circuit breakers and automated safety switches",
+        "Improved app responsiveness by building asynchronous task delegation network using Celery, Gunicorn, and RabbitMQ",
+        "Blocked millions in fraudulent transfers with real-time risk alert streaming system using Go, Kafka, and AWS MSK",
+        "Optimized microservice communications by shifting from REST/JSON to high-performance gRPC and Protocol Buffers",
+        "Deployed system onto Amazon EKS using Docker containers and Terraform with automatic scaling based on Prometheus/Grafana"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "AI Engineer",
+      company: "Turing",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "March 2025 - July 2025",
+      desc: "Engineered advanced AI training pipelines and model verification infrastructure",
+      descBullets: [
+        "Engineered high-fidelity training pipelines using Python and SQL to extract complex architectural datasets",
+        "Debugged hundreds of C++ training prompts ensuring LLM correctness with STL containers and C++20 standards",
+        "Implemented custom code-verification sandbox using Go, Docker, and Bash for 100% logic validation before ingestion",
+        "Executed advanced RLHF workflows within Labelbox, ranking model responses on concurrency safety and code standards",
+        "Designed Chain-of-Thought prompting strategies for AWS CloudFormation, Terraform, and security group configurations",
+        "Optimized backend model performance using SQL gap analysis on training datasets",
+        "Integrated automated vulnerability scanning within training loop using Python security libraries for OWASP Top 10"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Founding Engineer",
+      company: "EPAM Systems",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "August 2024 - March 2025",
+      desc: "Built full-stack sales intelligence MVP with AI-powered data enrichment",
+      descBullets: [
+        "Built full-stack MVP using Next.js, TypeScript, FastAPI, and Python for automated background profile discovery",
+        "Architected asynchronous data enrichment pipeline using Celery and Redis for heavy AI workloads",
+        "Engineered multi-step data ingestion system using FastAPI and Pydantic with CSV file uploads and auto-deduplication",
+        "Implemented public data discovery combining SerpAPI and OpenAI API for web scraping and profile extraction",
+        "Enforced data reliability using OpenAI Structured Outputs with Pydantic and confidence scoring",
+        "Designed custom PostgreSQL ranking algorithm for location alignment and executive seniority filtering",
+        "Developed high-performance React/Next.js dashboard with Tailwind CSS and interactive analytics grids",
+        "Built cross-platform mobile app using React Native, TypeScript, and Expo with MMKV storage and Firebase FCM"
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "CVS Health",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "December 2017 - July 2024",
+      desc: "Built HIPAA-compliant healthcare platforms serving millions of patients",
+      descBullets: [
+        "Built high-concurrency, HIPAA-compliant national vaccine booking portal using React, TypeScript, Node.js, and Express",
+        "Prevented appointment double-booking with distributed atomic slot-locking mechanisms using Redis",
+        "Accelerated patient checkout by optimizing client-side state with Redux Toolkit and Zod validation",
+        "Engineered real-time mail-order prescription tracking dashboard using Python, Django REST Framework, and React",
+        "Decoupled legacy mainframe lookups by building asynchronous data fetching pipeline using Celery and Redis",
+        "Standardized responsive UIs using Tailwind CSS achieving accessibility standards across all devices",
+        "Ensured platform stability with comprehensive automated testing (Pytest, Jest, React Testing Library)",
+        "Protected patient PHI using JWT tokens, HTTPS protocols, and application-layer encryption"
+      ]
     }
   ]
 };
@@ -212,29 +265,39 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Featured Projects",
+  subtitle: "HIGH-PERFORMANCE SYSTEMS AND AI-POWERED APPLICATIONS",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Bank Data Enrichment System",
+      projectDesc: "High-speed Go/Python system processing real-time bank data with Redis caching, Milvus vectors, and Kafka streaming for fraud detection",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Learn More",
+          url: "https://github.com/derekseber"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Sales Intelligence Platform",
+      projectDesc: "Full-stack Next.js + FastAPI MVP with AI-powered profile enrichment, SerpAPI scraping, and real-time analytics dashboard",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Learn More",
+          url: "https://github.com/derekseber"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "National Vaccine Booking Portal",
+      projectDesc: "HIPAA-compliant React/Node.js platform with distributed Redis slot-locking, handling millions of concurrent patient appointments",
+      footerLink: [
+        {
+          name: "Learn More",
+          url: "https://github.com/derekseber"
         }
       ]
     }
@@ -246,56 +309,59 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements & Expertise 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Accomplishments, technical expertise, and specialized knowledge in backend systems and cloud infrastructure",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AI/ML Infrastructure Specialist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Expert in building production-grade AI inference systems with TensorRT, ONNX Runtime, and vector databases (Milvus, Redis)",
       image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "AI/ML Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Technical Stack",
+          url: "https://github.com/derekseber"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Distributed Systems & Event Streaming",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Specialized in Apache Kafka, confluent-kafka-go, and real-time streaming systems for fraud detection and risk assessment",
       image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "Distributed Systems Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Projects",
+          url: "https://github.com/derekseber"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Cloud-Native & DevOps",
+      subtitle: "Expert in AWS (EKS, EC2, MSK, S3), Kubernetes, Docker, Terraform, and automated infrastructure scaling",
       image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      imageAlt: "Cloud-Native Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Infrastructure Code",
+          url: "https://github.com/derekseber"
+        }
+      ]
+    },
+    {
+      title: "HIPAA-Compliant Healthcare Systems",
+      subtitle: "Built secure, scalable healthcare platforms handling sensitive PHI with JWT, HTTPS encryption, and distributed locking",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Healthcare Systems Logo",
+      footerLink: [
+        {
+          name: "Case Study",
+          url: "https://github.com/derekseber"
         }
       ]
     }
@@ -306,22 +372,28 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Technical Insights",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "Articles and insights on backend systems, AI/ML infrastructure, and distributed computing",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://github.com/derekseber",
+      title: "Building High-Performance Go Systems",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Deep dive into Go concurrency patterns, Goroutines, Channels, and optimization techniques for production systems"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://github.com/derekseber",
+      title: "Real-Time Streaming with Apache Kafka",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Designing and implementing fault-tolerant Kafka systems for fraud detection and event-driven architectures"
+    },
+    {
+      url: "https://github.com/derekseber",
+      title: "AI Inference Optimization at Scale",
+      description:
+        "Techniques for optimizing ML model inference using TensorRT, ONNX Runtime, and Triton Inference Server"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -330,33 +402,33 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "TALKS & PRESENTATIONS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I enjoy sharing technical insights on backend systems, cloud infrastructure, and AI/ML engineering 🎙️"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Building Scalable Backend Systems with Go",
+      subtitle: "Technical Workshop on Concurrency and Performance Optimization",
+      slides_url: "https://github.com/derekseber",
+      event_url: "https://github.com/derekseber"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "Discussions on backend engineering, distributed systems, and AI infrastructure",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://anchor.fm/codevcast/embed/episodes/Backend-Engineering-Stories-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,19 +443,19 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss backend systems, AI infrastructure, cloud architecture, or just want to connect? My inbox is open for all.",
+  number: "(215) 853-6927",
+  email_address: "djseber3@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "derekseber", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
