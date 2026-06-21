@@ -195,7 +195,7 @@ const workExperiences = {
         "Engineered real-time feature pipeline using Apache Flink and Kafka, ingesting dynamic attributes into Feast and Redis for ultra-low-latency inference",
         "Built Go/Python backend system with optimized concurrency patterns (Goroutines, Channels) ensuring instant data delivery during peak traffic",
         "Deployed real-time fraud detection streaming system with Go, Kafka, and AWS MSK blocking millions in fraudulent transfers before settlement",
-        "Optimized infrastructure on Amazon EKS with Docker and Terraform, implementing auto-scaling based on Prometheus/Grafana metrics; reduced AI cloud costs by 60% using intelligent Redis caching"
+        "Optimized infrastructure on Amazon EKS, reduced AI cloud costs by 60% using intelligent Redis caching"
       ]
     },
     {
@@ -310,10 +310,10 @@ const achievementSection = {
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "ML Systems Logo",
       footerLink: [
-        {
-          name: "Technical Stack",
-          url: "https://github.com/derekseber"
-        }
+        // {
+        //   name: "Technical Stack",
+        //   url: "https://github.com/derekseber"
+        // }
       ]
     },
     {
@@ -323,10 +323,10 @@ const achievementSection = {
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Streaming Systems Logo",
       footerLink: [
-        {
-          name: "View Projects",
-          url: "https://github.com/derekseber"
-        }
+        // {
+        //   name: "View Projects",
+        //   url: "https://github.com/derekseber"
+        // }
       ]
     },
 
@@ -336,10 +336,10 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "Backend Architecture Logo",
       footerLink: [
-        {
-          name: "Infrastructure Code",
-          url: "https://github.com/derekseber"
-        }
+        // {
+        //   name: "Infrastructure Code",
+        //   url: "https://github.com/derekseber"
+        // }
       ]
     },
     {
@@ -348,10 +348,10 @@ const achievementSection = {
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Healthcare Systems Logo",
       footerLink: [
-        {
-          name: "Case Study",
-          url: "https://github.com/derekseber"
-        }
+        // {
+        //   name: "Case Study",
+        //   url: "https://github.com/derekseber"
+        // }
       ]
     }
   ],
