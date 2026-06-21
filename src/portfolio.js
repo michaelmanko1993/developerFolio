@@ -146,7 +146,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Maryland College Park",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: "https://media.licdn.com/dms/image/v2/C560BAQHrhLnmmZTGjQ/company-logo_200_200/company-logo_200_200/0/1631303360671?e=1783555200&v=beta&t=xqb4ysenH7hOeGs-cpg-N7uIPyogQXU7QWLwJgnd3g8",
       subHeader: "Bachelor of Science, Computer Science",
       duration: "2013 - 2017",
       desc: "Solid foundation in computer science fundamentals, algorithms, and software engineering.",
