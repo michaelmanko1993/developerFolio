@@ -187,7 +187,7 @@ const workExperiences = {
     {
       role: "MLOps Engineer / Senior Software Engineer",
       company: "Plaid",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: "https://media.licdn.com/dms/image/v2/D4E0BAQFWIYSyhHIVHg/company-logo_200_200/B4EZ7Xzu9rIAAE-/0/1781737123943/plaid__logo?e=1783555200&v=beta&t=ulrVvxcU8yWFvT4ii1gFAfTSl9VZBLiqJwRZ0xhmHMk",
       date: "August 2025 - Present",
       desc: "Leading AI/ML infrastructure and high-performance backend systems for fraud detection at scale",
       descBullets: [
@@ -201,7 +201,7 @@ const workExperiences = {
     {
       role: "AI Training Engineer",
       company: "Turing",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: "https://media.licdn.com/dms/image/v2/D4D0BAQEMzTP7ySRl1w/company-logo_200_200/B4DZraOH1PGgAI-/0/1764597727124?e=1783555200&v=beta&t=O1Zh4xwn99XZ5Ddsqrwklb9zbxZOs_vgOF4Kp0MTgSk",
       date: "March 2025 - July 2025",
       desc: "Engineered ML training pipelines and code verification infrastructure for LLM model development",
       descBullets: [
