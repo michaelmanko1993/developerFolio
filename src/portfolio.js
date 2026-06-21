@@ -215,7 +215,7 @@ const workExperiences = {
     {
       role: "Founding Engineer",
       company: "EPAM Systems",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: "https://media.licdn.com/dms/image/v2/D4D0BAQGd7yeYsBtfzw/company-logo_200_200/B4DZuc0QBQH4AI-/0/1767862501956/epam_systems_logo?e=1783555200&v=beta&t=EAqXhoisS3h9vBGzrWvYG7g7yFmFBqPsVbyeaq7QjpI",
       date: "August 2024 - March 2025",
       desc: "Built full-stack sales intelligence MVP with AI-powered data enrichment and real-time analytics",
       descBullets: [
@@ -229,7 +229,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "CVS Health",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: "https://media.licdn.com/dms/image/v2/C4E0BAQEhOw_KVli-CQ/company-logo_200_200/company-logo_200_200/0/1669901807779/cvs_health_logo?e=1783555200&v=beta&t=wnkD-q3z7J8n3pAw6y_Bh_LXDrzuai44u8WTZgI-n6s",
       date: "December 2017 - July 2024",
       desc: "Built HIPAA-compliant healthcare platforms serving millions of concurrent patients",
       descBullets: [
