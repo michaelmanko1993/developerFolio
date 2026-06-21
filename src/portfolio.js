@@ -23,7 +23,7 @@ const greeting = {
   username: "Derek Seber",
   title: "Hi all, I'm Derek",
   subTitle: emoji(
-    "A passionate Senior Software Engineer 🚀 specializing in backend systems, AI/ML infrastructure, and high-performance computing. Experienced with Go, Python, TypeScript, and building scalable cloud-native applications on AWS with Kubernetes, Redis, Kafka, and modern DevOps practices."
+    "A passionate MLOps & Senior Backend Engineer 🚀 specializing in AI/ML infrastructure, real-time streaming systems, and high-performance computing. Experienced with Python, Go, PyTorch, Apache Kafka, AWS SageMaker, and building production-grade fraud detection platforms at scale."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -45,25 +45,25 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "HIGH-PERFORMANCE BACKEND ENGINEER WHO LOVES BUILDING SCALABLE SYSTEMS AND AI INFRASTRUCTURE",
+  subTitle: "MACHINE LEARNING ENGINEER BUILDING PRODUCTION AI SYSTEMS AND SCALABLE BACKEND INFRASTRUCTURE",
   skills: [
     emoji(
-      "⚡ Build high-speed, low-latency backend systems using Go, Python, and Node.js with concurrent processing patterns"
+      "⚡ Build production-grade ML systems using PyTorch, Hugging Face, and custom GraphSAGE architectures for fraud detection"
     ),
     emoji(
-      "⚡ Design and optimize AI/ML data pipelines with TensorRT, ONNX Runtime, and vector databases (Milvus, Redis)"
+      "⚡ Design real-time feature engineering pipelines with Apache Flink, Kafka, Feast, and Redis for ultra-low-latency inference"
     ),
     emoji(
-      "⚡ Architect cloud-native applications on AWS (EKS, EC2, S3, MSK) with Kubernetes, Docker, and Terraform"
+      "⚡ Optimize model serving infrastructure using Triton Inference Server and AWS SageMaker on EKS clusters"
     ),
     emoji(
-      "⚡ Implement real-time streaming systems using Apache Kafka, confluent-kafka-go, and event-driven architectures"
+      "⚡ Build high-performance backend systems in Go and Python with concurrent processing and async task delegation"
     ),
     emoji(
-      "⚡ Develop full-stack applications combining React/TypeScript frontends with FastAPI/Django backends"
+      "⚡ Implement RLHF workflows and automated ML evaluation frameworks for continuous model improvement"
     ),
     emoji(
-      "⚡ Build distributed systems with caching (Redis Enterprise, Milvus), message queues (RabbitMQ, Celery), and async processing"
+      "⚡ Architect HIPAA-compliant, distributed systems with real-time fraud detection and KYC/AML compliance"
     )
   ],
 
@@ -72,19 +72,19 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "Go (Golang)",
-      fontAwesomeClassname: "fab fa-golang"
-    },
-    {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "TypeScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "PyTorch",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "JavaScript",
+      skillName: "Go (Golang)",
+      fontAwesomeClassname: "fab fa-golang"
+    },
+    {
+      skillName: "TypeScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -92,15 +92,15 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "Node.js",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Apache Kafka",
+      fontAwesomeClassname: "fas fa-stream"
     },
     {
-      skillName: "SQL / PostgreSQL",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "AWS SageMaker",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "AWS",
+      skillName: "AWS EKS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
@@ -112,28 +112,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-cube"
     },
     {
-      skillName: "Kafka",
-      fontAwesomeClassname: "fas fa-stream"
+      skillName: "Triton Inference",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "PostgreSQL",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "Redis",
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "Apache Flink",
+      fontAwesomeClassname: "fas fa-stream"
+    },
+    {
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git"
-    },
-    {
-      skillName: "C",
-      fontAwesomeClassname: "fas fa-code"
-    },
-    {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "Bash",
-      fontAwesomeClassname: "fas fa-terminal"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -149,10 +149,10 @@ const educationInfo = {
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Bachelor of Science, Computer Science",
       duration: "2013 - 2017",
-      desc: "Graduated with a strong foundation in computer science fundamentals, data structures, algorithms, and software engineering principles.",
+      desc: "Solid foundation in computer science fundamentals, algorithms, and software engineering.",
       descBullets: [
-        "Developed comprehensive understanding of distributed systems and cloud computing",
-        "Participated in software development projects using modern programming languages and frameworks"
+        "Distributed systems and cloud computing",
+        "Modern software development practices"
       ]
     }
   ]
@@ -164,16 +164,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Backend / Cloud Infrastructure", //Insert stack or technology you have experience in
+      Stack: "ML/MLOps & AI Infrastructure", //Insert stack or technology you have experience in
       progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Full-Stack (React + Node/FastAPI)",
-      progressPercentage: "85%"
+      Stack: "Real-Time Streaming & Backend Systems",
+      progressPercentage: "92%"
     },
     {
-      Stack: "AI/ML Systems & Data Pipelines",
-      progressPercentage: "90%"
+      Stack: "Full-Stack Development (React + Python/Go)",
+      progressPercentage: "88%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -185,36 +185,31 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior Software Engineer",
+      role: "MLOps Engineer / Senior Software Engineer",
       company: "Plaid",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "August 2025 - Present",
-      desc: "Leading high-performance backend systems and AI infrastructure development",
+      desc: "Leading AI/ML infrastructure and high-performance backend systems for fraud detection at scale",
       descBullets: [
-        "Built high-speed bank data enrichment system using Go, Python, and FastAPI with optimized concurrency patterns (Goroutines, Channels, Sync.Pool)",
-        "Cut external AI cloud fees by 60% using Redis Enterprise and Milvus Vector Database for intelligent memory caching layer",
-        "Accelerated AI data analysis on AWS EC2 G5 GPU servers via TensorRT INT8 quantization and NVIDIA Triton Inference Server",
-        "Protected client applications from AI outages using go-resiliency circuit breakers and automated safety switches",
-        "Improved app responsiveness by building asynchronous task delegation network using Celery, Gunicorn, and RabbitMQ",
-        "Blocked millions in fraudulent transfers with real-time risk alert streaming system using Go, Kafka, and AWS MSK",
-        "Optimized microservice communications by shifting from REST/JSON to high-performance gRPC and Protocol Buffers",
-        "Deployed system onto Amazon EKS using Docker containers and Terraform with automatic scaling based on Prometheus/Grafana"
+        "Architected heterogeneous GNN models with PyTorch Geometric and GraphSAGE on AWS SageMaker, deploying custom architectures to significantly reduce fraud rates",
+        "Engineered real-time feature pipeline using Apache Flink and Kafka, ingesting dynamic attributes into Feast and Redis for ultra-low-latency inference",
+        "Built Go/Python backend system with optimized concurrency patterns (Goroutines, Channels) ensuring instant data delivery during peak traffic",
+        "Deployed real-time fraud detection streaming system with Go, Kafka, and AWS MSK blocking millions in fraudulent transfers before settlement",
+        "Optimized infrastructure on Amazon EKS with Docker and Terraform, implementing auto-scaling based on Prometheus/Grafana metrics; reduced AI cloud costs by 60% using intelligent Redis caching"
       ]
     },
     {
-      role: "AI Engineer",
+      role: "AI Training Engineer",
       company: "Turing",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "March 2025 - July 2025",
-      desc: "Engineered advanced AI training pipelines and model verification infrastructure",
+      desc: "Engineered ML training pipelines and code verification infrastructure for LLM model development",
       descBullets: [
-        "Engineered high-fidelity training pipelines using Python and SQL to extract complex architectural datasets",
-        "Debugged hundreds of C++ training prompts ensuring LLM correctness with STL containers and C++20 standards",
-        "Implemented custom code-verification sandbox using Go, Docker, and Bash for 100% logic validation before ingestion",
-        "Executed advanced RLHF workflows within Labelbox, ranking model responses on concurrency safety and code standards",
-        "Designed Chain-of-Thought prompting strategies for AWS CloudFormation, Terraform, and security group configurations",
-        "Optimized backend model performance using SQL gap analysis on training datasets",
-        "Integrated automated vulnerability scanning within training loop using Python security libraries for OWASP Top 10"
+        "Built high-fidelity training pipelines in Python/SQL to extract and clean complex AWS and PostgreSQL architectural datasets",
+        "Created custom code-verification sandbox using Go, Docker, and Bash for 100% logic validation before model ingestion",
+        "Executed RLHF workflows in Labelbox, ranking model responses on concurrency safety and code quality standards",
+        "Designed Chain-of-Thought prompting strategies for infrastructure-as-code reasoning (CloudFormation, Terraform)",
+        "Increased training data throughput by 50% with automated Bash/Python scripts managing high-volume Labelbox API uploads"
       ]
     },
     {
@@ -222,16 +217,13 @@ const workExperiences = {
       company: "EPAM Systems",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "August 2024 - March 2025",
-      desc: "Built full-stack sales intelligence MVP with AI-powered data enrichment",
+      desc: "Built full-stack sales intelligence MVP with AI-powered data enrichment and real-time analytics",
       descBullets: [
-        "Built full-stack MVP using Next.js, TypeScript, FastAPI, and Python for automated background profile discovery",
-        "Architected asynchronous data enrichment pipeline using Celery and Redis for heavy AI workloads",
-        "Engineered multi-step data ingestion system using FastAPI and Pydantic with CSV file uploads and auto-deduplication",
-        "Implemented public data discovery combining SerpAPI and OpenAI API for web scraping and profile extraction",
-        "Enforced data reliability using OpenAI Structured Outputs with Pydantic and confidence scoring",
-        "Designed custom PostgreSQL ranking algorithm for location alignment and executive seniority filtering",
-        "Developed high-performance React/Next.js dashboard with Tailwind CSS and interactive analytics grids",
-        "Built cross-platform mobile app using React Native, TypeScript, and Expo with MMKV storage and Firebase FCM"
+        "Developed full-stack MVP using Next.js, TypeScript, FastAPI, and Python combining SerpAPI and OpenAI for intelligent profile discovery",
+        "Architected asynchronous enrichment pipeline with Celery and Redis, enabling heavy AI workloads without blocking UI interactions",
+        "Engineered multi-step data ingestion with FastAPI and Pydantic, handling CSV uploads, auto-mapping, and deduplication constraints",
+        "Built high-performance React/Next.js dashboard with Tailwind CSS and TanStack Query for real-time analytics and recommendations",
+        "Developed cross-platform mobile app with React Native and Expo, implementing MMKV caching and Firebase Cloud Messaging"
       ]
     },
     {
@@ -239,16 +231,13 @@ const workExperiences = {
       company: "CVS Health",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "December 2017 - July 2024",
-      desc: "Built HIPAA-compliant healthcare platforms serving millions of patients",
+      desc: "Built HIPAA-compliant healthcare platforms serving millions of concurrent patients",
       descBullets: [
-        "Built high-concurrency, HIPAA-compliant national vaccine booking portal using React, TypeScript, Node.js, and Express",
-        "Prevented appointment double-booking with distributed atomic slot-locking mechanisms using Redis",
-        "Accelerated patient checkout by optimizing client-side state with Redux Toolkit and Zod validation",
-        "Engineered real-time mail-order prescription tracking dashboard using Python, Django REST Framework, and React",
-        "Decoupled legacy mainframe lookups by building asynchronous data fetching pipeline using Celery and Redis",
-        "Standardized responsive UIs using Tailwind CSS achieving accessibility standards across all devices",
-        "Ensured platform stability with comprehensive automated testing (Pytest, Jest, React Testing Library)",
-        "Protected patient PHI using JWT tokens, HTTPS protocols, and application-layer encryption"
+        "Developed national vaccine booking portal using React, TypeScript, Node.js with Redis slot-locking, preventing double-bookings at scale",
+        "Integrated third-party EHR and Oracle Health APIs for real-time patient record synchronization across provider networks",
+        "Engineered real-time prescription tracking dashboard with Python/Django, reducing support call volume significantly",
+        "Optimized performance with Redux Toolkit state management, Celery async processing, and comprehensive test coverage (Pytest, Jest)",
+        "Ensured HIPAA compliance managing PHI with JWT authentication, HTTPS protocols, and application-layer encryption"
       ]
     }
   ]
@@ -266,12 +255,12 @@ const openSource = {
 
 const bigProjects = {
   title: "Featured Projects",
-  subtitle: "HIGH-PERFORMANCE SYSTEMS AND AI-POWERED APPLICATIONS",
+  subtitle: "AI-POWERED FRAUD DETECTION, BACKEND SYSTEMS, AND REAL-TIME STREAMING PLATFORMS",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Bank Data Enrichment System",
-      projectDesc: "High-speed Go/Python system processing real-time bank data with Redis caching, Milvus vectors, and Kafka streaming for fraud detection",
+      projectName: "GNN Fraud Detection Platform",
+      projectDesc: "Graph Neural Networks with PyTorch Geometric on AWS SageMaker detecting multi-entity transaction fraud with real-time Kafka streaming",
       footerLink: [
         {
           name: "Learn More",
@@ -281,8 +270,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Sales Intelligence Platform",
-      projectDesc: "Full-stack Next.js + FastAPI MVP with AI-powered profile enrichment, SerpAPI scraping, and real-time analytics dashboard",
+      projectName: "Real-Time Feature Engineering Pipeline",
+      projectDesc: "Apache Flink + Kafka streaming system with Feast and Redis, achieving ultra-low-latency ML feature retrieval on AWS",
       footerLink: [
         {
           name: "Learn More",
@@ -292,8 +281,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "National Vaccine Booking Portal",
-      projectDesc: "HIPAA-compliant React/Node.js platform with distributed Redis slot-locking, handling millions of concurrent patient appointments",
+      projectName: "HIPAA-Compliant Vaccine Booking Portal",
+      projectDesc: "React/TypeScript/Node.js platform with distributed Redis locking handling millions of concurrent bookings during peak traffic",
       footerLink: [
         {
           name: "Learn More",
@@ -309,17 +298,17 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements & Expertise 🏆 "),
+  title: emoji("Expertise & Specializations 🏆 "),
   subtitle:
-    "Accomplishments, technical expertise, and specialized knowledge in backend systems and cloud infrastructure",
+    "Deep technical expertise in ML infrastructure, fraud detection, real-time systems, and healthcare compliance",
 
   achievementsCards: [
     {
-      title: "AI/ML Infrastructure Specialist",
+      title: "ML Systems & AI Infrastructure",
       subtitle:
-        "Expert in building production-grade AI inference systems with TensorRT, ONNX Runtime, and vector databases (Milvus, Redis)",
+        "Expert in PyTorch, GraphSAGE, Hugging Face Transformers, TensorRT, Triton Inference Server, and AWS SageMaker for production ML",
       image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "AI/ML Logo",
+      imageAlt: "ML Systems Logo",
       footerLink: [
         {
           name: "Technical Stack",
@@ -328,11 +317,11 @@ const achievementSection = {
       ]
     },
     {
-      title: "Distributed Systems & Event Streaming",
+      title: "Real-Time Streaming & Feature Engineering",
       subtitle:
-        "Specialized in Apache Kafka, confluent-kafka-go, and real-time streaming systems for fraud detection and risk assessment",
+        "Specialized in Apache Kafka, Flink, Feast, RLHF workflows, and low-latency feature serving for fraud detection at scale",
       image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Distributed Systems Logo",
+      imageAlt: "Streaming Systems Logo",
       footerLink: [
         {
           name: "View Projects",
@@ -342,10 +331,10 @@ const achievementSection = {
     },
 
     {
-      title: "Cloud-Native & DevOps",
-      subtitle: "Expert in AWS (EKS, EC2, MSK, S3), Kubernetes, Docker, Terraform, and automated infrastructure scaling",
+      title: "High-Performance Backend & DevOps",
+      subtitle: "Expert in Go, Python backends, Kubernetes/EKS, Docker, Triton Inference, and building scalable distributed systems",
       image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "Cloud-Native Logo",
+      imageAlt: "Backend Architecture Logo",
       footerLink: [
         {
           name: "Infrastructure Code",
@@ -354,8 +343,8 @@ const achievementSection = {
       ]
     },
     {
-      title: "HIPAA-Compliant Healthcare Systems",
-      subtitle: "Built secure, scalable healthcare platforms handling sensitive PHI with JWT, HTTPS encryption, and distributed locking",
+      title: "HIPAA Compliance & Healthcare Systems",
+      subtitle: "Built secure healthcare platforms with PHI encryption, distributed locking, EHR integration, and HIPAA-regulated architecture",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Healthcare Systems Logo",
       footerLink: [
@@ -374,26 +363,26 @@ const achievementSection = {
 const blogSection = {
   title: "Technical Insights",
   subtitle:
-    "Articles and insights on backend systems, AI/ML infrastructure, and distributed computing",
+    "Articles on ML systems, real-time streaming, fraud detection, and production AI infrastructure",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://github.com/derekseber",
-      title: "Building High-Performance Go Systems",
+      title: "Building Graph Neural Networks for Fraud Detection",
       description:
-        "Deep dive into Go concurrency patterns, Goroutines, Channels, and optimization techniques for production systems"
+        "Deep dive into GNN architectures with PyTorch Geometric and GraphSAGE for real-time transaction fraud detection at scale"
     },
     {
       url: "https://github.com/derekseber",
-      title: "Real-Time Streaming with Apache Kafka",
+      title: "Real-Time ML Feature Serving with Kafka and Feast",
       description:
-        "Designing and implementing fault-tolerant Kafka systems for fraud detection and event-driven architectures"
+        "Engineering ultra-low-latency feature pipelines using Apache Flink, Kafka, Feast, and Redis for production ML inference"
     },
     {
       url: "https://github.com/derekseber",
-      title: "AI Inference Optimization at Scale",
+      title: "From Triton to Production: Optimizing ML Model Serving",
       description:
-        "Techniques for optimizing ML model inference using TensorRT, ONNX Runtime, and Triton Inference Server"
+        "Techniques for scaling ML inference using Triton Inference Server, AWS SageMaker, and Kubernetes on EKS"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -404,13 +393,13 @@ const blogSection = {
 const talkSection = {
   title: "TALKS & PRESENTATIONS",
   subtitle: emoji(
-    "I enjoy sharing technical insights on backend systems, cloud infrastructure, and AI/ML engineering 🎙️"
+    "Sharing insights on ML systems, fraud detection, and production AI infrastructure 🎙️"
   ),
 
   talks: [
     {
-      title: "Building Scalable Backend Systems with Go",
-      subtitle: "Technical Workshop on Concurrency and Performance Optimization",
+      title: "Building Scalable ML Systems in Production",
+      subtitle: "Technical Workshop on ML Ops, Real-Time Feature Engineering, and Model Serving",
       slides_url: "https://github.com/derekseber",
       event_url: "https://github.com/derekseber"
     }
@@ -422,11 +411,11 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "Discussions on backend engineering, distributed systems, and AI infrastructure",
+  subtitle: "Discussions on ML engineering, fraud detection, and production AI systems",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/Backend-Engineering-Stories-e9givv/a-a15itvo"
+    "https://anchor.fm/codevcast/embed/episodes/ML-Engineering-Stories-e9givv/a-a15itvo"
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -443,7 +432,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss backend systems, AI infrastructure, cloud architecture, or just want to connect? My inbox is open for all.",
+    "Discuss ML systems, fraud detection, backend architecture, or just want to connect? My inbox is open.",
   number: "(215) 853-6927",
   email_address: "djseber3@gmail.com"
 };
