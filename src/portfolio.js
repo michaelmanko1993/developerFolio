@@ -185,7 +185,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "MLOps Engineer / Senior Software Engineer",
+      role: "MLOps Engineer",
       company: "Plaid",
       companylogo: "https://media.licdn.com/dms/image/v2/D4E0BAQFWIYSyhHIVHg/company-logo_200_200/B4EZ7Xzu9rIAAE-/0/1781737123943/plaid__logo?e=1783555200&v=beta&t=ulrVvxcU8yWFvT4ii1gFAfTSl9VZBLiqJwRZ0xhmHMk",
       date: "August 2025 - Present",
